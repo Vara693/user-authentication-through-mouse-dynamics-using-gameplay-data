@@ -28,16 +28,13 @@ class MouseAuthApp:
     
     def _setup_ui(self):
         """Set up the main UI"""
-        # Main frame
         main_frame = ttk.Frame(self.root, padding="20")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
-        # Title
         title_label = ttk.Label(main_frame, text="Mouse Dynamics Authentication", 
                                font=('Arial', 16, 'bold'))
         title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
         
-        # Login Frame
         self.login_frame = ttk.LabelFrame(main_frame, text="Login", padding="10")
         self.login_frame.grid(row=1, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=10)
         
