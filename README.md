@@ -137,8 +137,8 @@ mouse-dynamics-auth/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/mouse-dynamics-auth.git
-cd mouse-dynamics-auth
+git clone https://github.com/Vara715/user-authentication-through-mouse-dynamics-using-gameplay-data.git
+cd user-authentication-through-mouse-dynamics-using-gameplay-data
 
 # 2. Create and activate a virtual environment (recommended)
 python -m venv venv
